@@ -18,6 +18,34 @@ a {
   text-decoration: none;
 }
 
+/* ヘッダー CSS */
+.header {
+  background-color: rgba(34,49,52,0.9);
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  width: 124px;
+  margin-top: 20px;
+}
+
+.sign-in {
+  color: white;
+  float: right;
+  background-color: rgba(255,255,255,0.3);
+  line-height: 65px;
+  padding: 0 25px;
+  transition: all 1s;
+}
+
+.sign-in:hover {
+  background-color: #AAAAAA;
+}
 
 /* TOP CSS */
 .top-window {
