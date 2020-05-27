@@ -103,3 +103,41 @@ a {
 .fa {
   margin-right: 5px;
 }
+
+/* メイン(レッスン一覧) CSS */
+.main {
+  height: 580px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.lessons-title {
+  font-weight: normal;
+  color: #5f5d60;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.lesson {
+  width: 25%;
+  float: left;
+}
+
+.lesson-logo {
+  position: relative;
+}
+
+.lesson-logo p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.lesson-text {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #5f5d60;
+  width: 80%;
+  display: inline-block;
+}
