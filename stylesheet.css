@@ -175,3 +175,21 @@ a {
   top: 7px;
   box-shadow: none;
 }
+
+/* フッター */
+footer {
+  border-top: 1px solid #eee;
+}
+
+.footer-logo {
+  padding: 30px 0;
+}
+
+.footer-img  {
+  width: 124px;
+}
+
+.footer-logo p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
