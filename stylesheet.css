@@ -115,3 +115,43 @@ header {
 .fa {
   padding-right: 5px;
 }
+
+/* レッスン一覧 */
+.main {
+  height: 580px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.lesson-title {
+  padding: 80px 0 50px 0;
+}
+
+.lesson-title h2 {
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-logo {
+  position: relative;
+}
+
+.lesson-logo p {
+  color: white;
+  position: absolute;
+  top: 90px;
+  width: 100%;
+}
+
+.content-text {
+  margin-top: 15px;
+  width: 80%;
+  display: inline-block;
+  font-size: 13px;
+  color: #5f5d60;
+}
