@@ -154,3 +154,25 @@ header {
   color: #5f5d60;
   font-size: 13px;
 }
+
+/* メッセージ */
+.message-wrapper {
+  text-align: center;
+}
+
+.heading h3 {
+  color: #5f5d60;
+}
+
+.message {
+  background-color: #5dca88;
+  padding: 15px 40px;
+  box-shadow: 0 7px #1a7940;
+  margin-bottom: 80px;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
